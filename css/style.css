@@ -79,6 +79,9 @@ body {
     font-size: 12px;
     margin-bottom: 50px;
 }
+.text-primary:hover {
+    color: white;
+}
 .text-primary4 {
     color: black;
     font-size: 25px;
@@ -94,6 +97,9 @@ body {
 }
 .btn-primary:hover {
     cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
 }
 .btn-primary2 {
     background-color: orange;
@@ -104,6 +110,8 @@ body {
 }
 .btn-primary2:hover {
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .btn-primary3 {
     border: 0;
@@ -113,9 +121,12 @@ body {
 }
 .btn-primary3:hover {
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .icon {
     float: right;
+    cursor: pointer;
 } 
 input {
     border: 0;
