@@ -72,6 +72,8 @@ body {
     color: white;
     padding-top: 90px;
     font-size: 40px;
+    font-weight: ;
+    line-height: ;
     /* border: 1px solid black; */
     margin-bottom: 30px;
 }
@@ -81,6 +83,7 @@ body {
 }
 .text-primary:hover {
     color: white;
+    transition: all 500ms linear;
 }
 .text-primary4 {
     color: black;
@@ -90,10 +93,15 @@ body {
     margin-bottom: 40px;
 }
 .btn-primary {
+    display: flex;
+    align-items: center;
     background-color: white;
-    border: 1px solid white;
+    border: 0;
     padding: 5px 15px;
     border-radius: 5px;
+}
+.gt {
+    padding-left: 40px;
 }
 .btn-primary:hover {
     cursor: pointer;
@@ -141,7 +149,33 @@ input {
 .form-icons {
     /* border: 1px solid black; */
     margin-right: 25px;
+    color: grey;
 }
 .forms {
     margin-bottom: 30px;
+}
+
+
+/* RESPONSIVENESSS */
+
+/* LAPTOP SCREEN */
+@media screen and (min-width: 768px) {
+    .signup-container .header2 a {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 768px) {
+    .description-container {
+        display: none;
+    }
+    .signup-container{
+        width: 100%;
+        padding-right: 110px;
+    }
+    .signup-container .header2 {
+        display: flex;
+        justify-content: space-between;
+    }
 }
